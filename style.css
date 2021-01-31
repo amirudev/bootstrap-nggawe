@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+.text-brand-color {
+    color: rgb(240, 163, 16);
+}
+
+.text-brand-secondarycolor {
+    color: rgb(78, 66, 43);
+}
+
+.text-brand-font {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-brand-color {
+    background-color: rgb(240, 163, 16);
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+header .navbar-brand {
+    font-family: 'Roboto', sans-serif;
+}
+
+section .title {
+    margin-top: 180px;
+}
+
+section .title .main-title {
+    font-family: 'Krona One', sans-serif;
+    font-size: 64px;
+}
+
+section .image {
+    margin-top: 85px;
+}
+
+section img {
+    width: 260px;
+    height: 260px;
+    object-fit: cover;
+}
+
+section .image1 {
+    border-radius: 0 100% 0 0;
+}
+
+section .image2 {
+    border-radius: 0 0 100% 0;
+}
