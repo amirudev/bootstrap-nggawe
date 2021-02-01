@@ -24,8 +24,12 @@ header {
     z-index: 10;
 }
 
-header .navbar-brand {
+.navbar-brand {
     font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand:hover {
+    color: rgb(230, 153, 6);
 }
 
 section h1 {
@@ -130,4 +134,8 @@ section h1 {
 
 #blog #excerpt {
     font-size: 12px;
+}
+
+footer p {
+    font-size: 14px;
 }
