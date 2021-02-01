@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Revalia&display=swap');
 
 .text-brand-color {
     color: rgb(240, 163, 16);
@@ -71,25 +72,50 @@ section h1 {
     object-fit: contain;
 }
 
-#circle {
+#reason #text {
+    margin-top: 100px;
+}
+
+#reason #circle {
     width: 400px;
     height: 400px;
-    margin-top: 100px;
+    margin-top: 70px;
     border-radius: 100%;
     background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(255, 255, 255, 1), rgb(255, 255, 255, 1));
 }
 
-#circle #circle-image {
+#reason #circle #circle-image {
     top: -30px;
     left: 60px;
     height: 300px;
     object-fit: cover;
 }
 
-#reason #text {
-    margin-top: 130px;
-}
-
 #reason #text img {
     width: 35px;
+}
+
+#quote #quote-char-left {
+    top: -145px;
+    left: -55px;
+    transform: rotate(180deg);
+}
+
+#quote #quote-char-right {
+    bottom: -145px;
+    right: -55px;
+}
+
+#quote .quote-char {
+    font-size: 160px;
+    color: rgb(240, 163, 16);
+    font-family: 'Revalia', cursive;
+}
+
+#quote #user-photo {
+    width: 35px;
+}
+
+#quote #text {
+    margin-top: 60px;
 }
