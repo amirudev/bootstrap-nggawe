@@ -119,3 +119,15 @@ section h1 {
 #quote #text {
     margin-top: 60px;
 }
+
+#blog button {
+    border-radius: 0;
+}
+
+#blog button:hover {
+    color: white!important;
+}
+
+#blog #excerpt {
+    font-size: 12px;
+}
